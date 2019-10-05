@@ -1,0 +1,92 @@
+html,body {
+    background: url("../images/background.jpg");
+    background-size: cover; 
+}
+
+.container {
+    text-align: center; 
+}
+
+.jumbotron {
+    font-family: 'Bowlby One SC', cursive;
+    background: #faff0d;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    color: #bc2e1e;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#instructions-h2 {
+    text-decoration: underline;
+}
+
+#instructions {
+    border: 4px double #ffffff;
+    font-family: 'Russo One',sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    background: #6A0CE8;
+    background: -moz-linear-gradient(-45deg, #6A0CE8 0%, #FF0000 50%, #E88E0C 100%);
+    background: -webkit-linear-gradient(-45deg, #6A0CE8 0%, #FF0000 50%, #E88E0C 100%);
+    background: linear-gradient(135deg, #6A0CE8 0%, #FF0000 50%, #E88E0C 100%);
+}
+
+#rdmNmbr {
+    font-family: 'Russo One',sans-serif;
+    border: 4px double #ffffff;
+    color: #1A10E8;
+    background: #B21212;
+    background: -moz-linear-gradient(-45deg, #B21212 0%, #FFFC19 50%, #1485CC 100%);
+    background: -webkit-linear-gradient(-45deg, #B21212 0%, #FFFC19 50%, #1485CC 100%);
+    background: linear-gradient(135deg, #B21212 0%, #FFFC19 50%, #1485CC 100%);
+}
+
+#WandL {
+    font-family: 'Russo One',sans-serif;
+    border: 4px double #ffffff;
+    color: #1A10E8;
+    background: #B21212;
+    background: -moz-linear-gradient(-45deg, #B21212 0%, #FFFC19 50%, #1485CC 100%);
+    background: -webkit-linear-gradient(-45deg, #B21212 0%, #FFFC19 50%, #1485CC 100%);
+    background: linear-gradient(135deg, #B21212 0%, #FFFC19 50%, #1485CC 100%);
+}
+
+.img-thumbnail {
+    border: 0px;
+    background: none;
+}
+
+#scoreText {
+    font-family: 'Russo One',sans-serif;
+    border: 4px double #ffffff;
+    color: #ffffff;
+    background: #003D7F;
+    background: -moz-linear-gradient(-45deg, #003D7F 0%, #007AFF 50%, #5E6E7F 100%);
+    background: -webkit-linear-gradient(-45deg, #003D7F 0%, #007AFF 50%, #5E6E7F 100%);
+    background: linear-gradient(135deg, #003D7F 0%, #007AFF 50%, #5E6E7F 100%);
+}
+
+#winner1 {
+    font-family: 'Russo One',sans-serif;
+    color: #ffffff; 
+}
+#winner2 {
+    font-family: 'Russo One',sans-serif;
+    color: #ffffff;
+}
+
+#lose1 {
+    font-family: 'Russo One',sans-serif;
+    color: #ffffff;
+}
+#lose2 {
+    font-family: 'Russo One',sans-serif;
+    color: #ffffff;
+}
