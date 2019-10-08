@@ -3,8 +3,7 @@
 
 <head>
     <title>Crystal Game | HW4</title>
-    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -22,7 +21,7 @@
         <p>The game will change the values of each crystal each time the game starts.</p>
     </div>
 
-    <div id="compNum">
+    <div id="matchNum">
         <p>Match this number:</p>
     </div>
     <div id="stats">
@@ -35,24 +34,21 @@
         <!-- images of crystals -->
     <div id="row">
 
-        <div class="crystal1">
-            <button id="button1" class="number" value=""> <img src="assets/images/blue.png" style="width: 45px; height: 45px"
-                    alt="blue crystal"></button>
-        </div>
-
-        <div class="crystal2">
-            <button id="button2" class="number" value=""> <img src="assets/images/ruby.png" style="width: 45px; height: 45px"
-                    alt="ruby crystal"></button>
-        </div>
-
-        <div class="crystal3">
-            <button id="button3" class="number" value=""> <img src="assets/images/zircon.png" style="width: 45px; height: 45px"
-                    alt="zircon crystal"></button>
-        </div>
-
-        <div class="crystal4">
-            <button id="button4" class="number" value=""> <img src="assets/images/orange.png" style="width: 45px; height: 45px"
+        
+        
+        <div class="crystalOrange">
+            <button id="button2" class="number" value=""> <img src="assets/images/orange.png" style="width: 45px; height: 80px"
                     alt="orange crystal"></button>
+        </div>
+
+        <div class="crystalPurple">
+            <button id="button3" class="number" value=""> <img src="assets/images/purple.png" style="width: 45px; height: 80px"
+                    alt="purple crystal"></button>
+        </div>
+
+        <div class="crystalRed">
+            <button id="button4" class="number" value=""> <img src="assets/images/red.png" style="width: 45px; height: 80px"
+                    alt="red crystal"></button>
         </div>
     </div>
 
@@ -64,7 +60,7 @@
     <div id="userNum"></div>
 
 
-<script type="text/javascript" src="assets/js.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
